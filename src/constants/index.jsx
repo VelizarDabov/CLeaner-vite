@@ -1,3 +1,5 @@
+import telegram from '../assets/telegram.svg'
+import facebook from '../assets/facebook.svg'
 export const navigation = [
     {
       id: "0",
@@ -22,3 +24,4 @@ export const navigation = [
     },
    
   ];
+  export const heroIcons = [telegram, facebook ];
