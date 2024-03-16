@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="flex sticky justify-between items-center border-b top-0 z-50 backdrop-blur-md bg-white/30 p-2">
       {/* left */}
-      <a onClick={() => handleChange("#home")} href="#home" passHref>
+      <a onClick={() => handleChange("#home")} href="#home" passhref='true'>
         <h1 className="text-xl md:text-4xl font-semibold ml-5 cursor-pointer hover:spin-in-90">
           <span className="text-2xl lg:text-5xl text-blue-600 scroll-smooth font-bold">
             CL
