@@ -23,7 +23,7 @@ const Home = () => {
     
     <>
  
-        <section
+        <section id='home'
     className="pt-[7rem] -mt-[5.25rem]"
   >
     <div className="max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem] relative" >
@@ -44,7 +44,7 @@ const Home = () => {
         <p className="text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8 max-w-3xl mx-auto mb-6 text-n-2 lg-mb-8">
         Нашата Мисия е да Ви Предоставим Чиста и Здравословна Среда, в Която да Живеете и Работите!
         </p>
-        <Buttonn onClick={handleClick} className='rounded-lg bg-blue-500 text-white cursor-pointer'  >
+        <Buttonn onClick={handleClick} className='rounded-lg bg-blue-500 text-white'  >
          
         <a  href="#service" >
           Започнете сега

@@ -1,4 +1,7 @@
-
+import  discord from "../assets/discord.svg";
+import instagram from '../assets/instagram.svg'
+import telegram from '../assets/telegram.svg'
+import facebook from '../assets/twitter.svg'
 export const navigation = [
   {
     id: "0",
@@ -52,5 +55,32 @@ export const services = [
     type: "Почистване на Тапицерии и Килими",
     imageUrl: "./src/assets/card-5.svg",
     text:"Поддържайте работното си място в безупречно чисто състояние с нашите професионални услуги за почистване на офиси. Осигурете на своите служители комфорт и ефективност в работата."
+  },
+];
+export const socials = [
+  {
+    id: "0",
+    title: "Discord",
+    iconUrl: discord,
+    url: "#",
+  },
+
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Telegram",
+    iconUrl: telegram,
+    url: "#",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "#",
   },
 ];
