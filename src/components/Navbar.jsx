@@ -11,7 +11,7 @@ const Header = () => {
       {/* left */}
       <a onClick={() => handleChange("#home")} href="#home" passhref='true'>
         <h1 className="text-xl md:text-4xl font-semibold ml-5 cursor-pointer hover:spin-in-90">
-          <span className="text-2xl lg:text-5xl text-blue-600 scroll-smooth font-bold">
+          <span className="text-2xl md:text-5xl  text-blue-600 scroll-smooth font-bold">
             CL
           </span>
           eaner<span className="hover:scale-105">🧹</span>

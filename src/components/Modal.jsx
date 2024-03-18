@@ -20,7 +20,7 @@ export function Modal() {
           variant="outline"
           className="bg-blue-500 uppercase text-white hover:bg-blue-400 hover:scale-110 text-xs lg:text-md"
         >
-         Пиши ни ☎️
+         Пишете ни ☎️
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
@@ -59,7 +59,7 @@ export function Modal() {
         </div>
         <DialogFooter className="flex justify-center items-center">
           <Button className="rounded-lg w-full" type="submit">
-            Send Email
+           Изпрати
           </Button>
         </DialogFooter>
         <div className="flex justify-between">
