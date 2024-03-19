@@ -1,13 +1,13 @@
-import { Check } from "lucide-react";
-import cleaner1 from "../assets/cleaner1.jpg";
-import { chooseUsAdvantages, steps } from "../constants";
-import cleen2 from "../assets/cleen2.jpg";
+
+import serviceCard from "../assets/serviceCard.jpg";
+import {  steps } from "../constants";
+import cleen2 from "../assets/clean1.jpg";
 import { PhotoChatMessage } from "./ui/ChatMessage";
 import { VideoChatMessage } from "./ui/VideoChat";
 import Card from "./ui/Card";
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="pt-20">
       <div className="mt-10 max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]">
         <h1 className="font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]">
           {" "}
@@ -22,7 +22,7 @@ const About = () => {
                 width={800}
                 alt="cleaning"
                 height={730}
-                src={cleaner1}
+                src={serviceCard}
               />
             </div>
             <div className="relative z-20 max-w-[17rem] ml-auto">
@@ -77,14 +77,13 @@ const About = () => {
                 <h4 className="text-[2rem] leading-normal mb-4">Осигуряваме най-добрите услуги
 за нашите клиенти</h4>
                 <p className=" mb-[2rem] text-gray-700">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                Ние почистваме всичко и навсякъде – от най-малката тоалетна, до огромни индустриални обекти. Няма да откриете фиксирани цени за отделните услуги в сайта, нито можем да Ви кажем „ориентировъчна“ цена по телефона. 
                 </p>
               </div>
 
               <div className="relative h-[20rem] bg-gray-500 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src={cleaner1}
+                  src={serviceCard}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}

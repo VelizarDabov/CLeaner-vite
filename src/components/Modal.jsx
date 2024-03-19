@@ -18,9 +18,9 @@ export function Modal() {
       <DialogTrigger asChild>
         <Button
           variant="outline"
-          className="bg-blue-500 uppercase text-white hover:bg-blue-400 hover:scale-110 text-xs lg:text-md"
+          className="bg-blue-500 uppercase text-white hover:bg-blue-400 hover:scale-110 text-xs lg:text-md mt-1 mb-1"
         >
-         Пишете ни ☎️
+        Контакти ☎️
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">

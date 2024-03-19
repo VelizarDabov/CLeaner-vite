@@ -1,14 +1,15 @@
 import { services } from "../constants";
-import homepage from '../assets/homepage.jpg'
+import service2 from '../assets/service2.jpg'
+
 const Service = () => {
   return (
-    <section id="service" className="mt-20 ">
+    <section id="service" className="pt-24">
        
       <div className="max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem] relative z-2 ">
         <h1 className=" font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]">
         Разгледайте Нашите Професионални Услуги за Почистване
         </h1>
-        <p className="mt-4 text-md md:text-xl text-center text-gray-500">
+        <p className="mt-4 text-md md:text-xl text-center text-gray-800">
           Влезте в света на чистотата и комфорта с нашата компания. Ние предлагаме разнообразни услуги за почистване,
           които ще направят вашия дом, офис или друго пространство безупречно чисто и приятно за живеене или работа.
         </p>
@@ -22,7 +23,7 @@ const Service = () => {
               
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="text-2xl leading-normal underline mb-5">{item.type}</h5>
-                <p className="body-2 mb-6 text-gray-600"> {item.text}</p>
+                <p className="body-2 mb-6 text-black "> {item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.imageUrl}
@@ -30,10 +31,16 @@ const Service = () => {
                     height={48}
                     alt={item.name}
                   />
-                  <p className="ml-auto font-full text-xs font-bold text-n-1 uppercase tracking-wider">
+               <h1 className="text-4xl font-semibold  ml-10 cursor-pointer z-20">
+          <span className="text-5xl  text-blue-600 scroll-smooth font-bold">
+            CL
+          </span>
+          eaner🧹
+        </h1>
+                  {/* <p className="ml-auto font-full text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
-              
+               */}
           
                 </div>
               </div>
@@ -42,14 +49,14 @@ const Service = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute w-full inset-0 opacity-0 transition-opacity hover:opacity-30">
                   {item.imageUrl && (
                     <img
-                      src={homepage}
-                      width={380}
+                      src={service2}
+                      width={370}
                       height={362}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover rounded-3xl"
                     />
                   )}
                 </div>

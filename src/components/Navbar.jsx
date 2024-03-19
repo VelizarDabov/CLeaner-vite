@@ -7,14 +7,14 @@ const Header = () => {
   const pathname = useLocation();
 
   return (
-    <div className="flex sticky justify-between items-center border-b top-0 z-50 backdrop-blur-md bg-white/30 p-2">
+    <div className="flex sticky justify-between items-center border-b top-0 z-50 backdrop-blur-md bg-white/30 ">
       {/* left */}
       <a onClick={() => handleChange("#home")} href="#home" passhref='true'>
-        <h1 className="text-xl md:text-4xl font-semibold ml-5 cursor-pointer hover:spin-in-90">
+        <h1 className="text-xl md:text-4xl font-semibold ml-5 cursor-pointer">
           <span className="text-2xl md:text-5xl  text-blue-600 scroll-smooth font-bold">
             CL
           </span>
-          eaner<span className="hover:scale-105">🧹</span>
+          eaner🧹
         </h1>
       </a>
       {/* center */}
@@ -24,7 +24,6 @@ const Header = () => {
               <a
                 key={item.id}
                 href={item.url}
-                // onClick={handleClick}
                 className={`  text-2xl uppercase text-n-1 transition-colors hover:text-blue-400 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 text-sm lg:text-lg lg:font-semibold ${
