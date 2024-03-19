@@ -1,7 +1,6 @@
 
 import homepage from '../assets/homepage.jpg'
 import { Gradient } from './ui/Gradient';
-import { Button } from "@/components/ui/button"
 import { BackgroundCircles } from './ui/Hero';
 import curve from "../assets/curve.png";
 import Buttonn from './ui/Buttonn';

@@ -9,6 +9,11 @@ export const navigation = [
     url: "#home",
   },
   {
+    id: "4",
+    title: "За нас",
+    url: "#About",
+  },
+  {
     id: "1",
     title: "Услуги",
     url: "#service",
@@ -19,11 +24,11 @@ export const navigation = [
     url: "#galery",
   },
 
-  {
-    id: "3",
-    title: "Контакти",
-    url: "#contacts",
-  },
+  // {
+  //   id: "3",
+  //   title: "Контакти",
+  //   url: "#contacts",
+  // },
 ];
 export const services = [
   {
