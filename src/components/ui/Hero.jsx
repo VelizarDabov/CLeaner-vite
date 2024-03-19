@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { MouseParallax } from "react-just-parallax";
-
+import bubble from '../../assets/bubble.png'
 
 
 export const Gradient = () => {
@@ -27,50 +27,61 @@ export const BackgroundCircles = ({ parallaxRef }) => {
       <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
           <div
-            className={`w-7 h-7 -ml-1  bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-20 h-10 -ml-1   rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
           <div
-            className={`w-10 h-10 -ml-1 -mt-32 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-20 h-10 -ml-1 -mt-32  rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
+        
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]">
           <div
-            className={`hidden w-7 h-7 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
+            className={` w-16 h-16  rounded-full xl:block transit transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[65deg]">
           <div
-            className={`w-12 h-12 -ml-1.5 mt-72 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-36 h-12  rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
+          
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]">
           <div
-            className={`w-8 h-8 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-20 h-20  bg-gradient-to-b  rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[70deg]">
           <div
-            className={`w-14 h-14 -ml-20 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-14 h-14  rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+            }`}>
+                <img src={bubble} alt="bubble"/>
+            </div>
+          <img src={bubble} alt="bubble" className={`w-16 h-16  mt-10 bg-gradient-to-b  rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}/>
         </div>
       </MouseParallax>
     </div>
