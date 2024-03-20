@@ -34,28 +34,26 @@ export function Modal() {
             </h1>
           </DialogTitle>
           <DialogDescription>
-            Let's Connect: Your Next Step to Success - Write an email or call
-            now
+            Свержете се с нас на посоченият телефонен номер или ни пишете тук, а ние ще се свържем с Вас!
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="name" className="text-right">
-              Name
+         Име
             </Label>
-            <Input id="name" defaultValue="John Doe" className="col-span-3" />
+            <Input id="name"  className="col-span-3" />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
-              Email
+             Имейл
             </Label>
             <Input
               id="username"
-              defaultValue="john@gmail.com"
               className="col-span-3"
             />
           </div>
-          <Textarea placeholder="Enter your text here " />
+          <Textarea placeholder="Направете вашето запитване тук " />
         </div>
         <DialogFooter className="flex justify-center items-center">
           <Button className="rounded-lg w-full" type="submit">
