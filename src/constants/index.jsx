@@ -4,6 +4,8 @@ import telegram from "../assets/telegram.svg";
 import facebook from "../assets/twitter.svg";
 import dirty from "../assets/dirty.jpg";
 import clean from "../assets/clean.jpg";
+import cleanWindow from '../assets/cleanMirror.jpg'
+import spongeBefore from '../assets/spongeBefore.jpg'
 export const navigation = [
   {
     id: "0",
@@ -118,7 +120,7 @@ export const steps = [
 ];
 
 export const imagePairs = [
-  { dirty: dirty, clean: clean },
-  { dirty: dirty, clean: clean },
-  { dirty: dirty, clean: clean },
+  { dirty: spongeBefore, clean: cleanWindow},
+  { dirty: spongeBefore, clean: cleanWindow},
+  { dirty: spongeBefore, clean: cleanWindow},
 ];
