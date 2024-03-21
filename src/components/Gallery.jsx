@@ -5,7 +5,7 @@ const Gallery = () => {
     <section id="gallery" className="pt-20">
       <div className="container mx-auto my-12">
         <h2 className="text-3xl font-bold mb-6">Before & After Gallery</h2>
-        <div className="grid grid-cols-2 gap-6">
+        {/* <div className="grid grid-cols-2 gap-6">
           {imagePairs.map((pair, index) => (
             <div key={index} className="flex">
               <div className="relative w-full h-350">
@@ -30,7 +30,7 @@ const Gallery = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
