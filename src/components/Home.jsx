@@ -62,7 +62,7 @@ const Home = () => {
                 className="w-full scale-[1.7] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                 width={1024}
                 height={490}
-                alt="AI"
+                alt="homepage"
               />
              
              
