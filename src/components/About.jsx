@@ -15,37 +15,6 @@ const About = () => {
         </h1>
 <p className="font-light text-[0.975rem] leading-6 md:text-[1.3rem] mb-[3rem] mt-[1rem] text-gray-700">Основната ни цел е да предлагаме висококачествено обслужване и безупречно отношение към клиентите ни.</p>
         <div className="relative">
-          {/* <div className="relative z-20 flex items-center h-[39rem] mb-5 p-8 border border-gray-500/20 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem] ">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
-              <img
-                className="w-full h-full object-cover md:object-right"
-                width={800}
-                alt="cleaning"
-                height={730}
-                src={serviceCard}
-              />
-            </div>
-            <div className="relative z-20 max-w-[17rem] ml-auto">
-              <h4 className="mb-4 text-[2rem] leading-normal">
-                Какво предлагаме ние
-              </h4>
-
-              <ul className="font-light text-[0.875rem] leading-6 md:text-base">
-                {chooseUsAdvantages.map((type, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-gray-500"
-                  >
-                    <div className="border obrder-b rounded-full bg-blue-500 p-1">
-                      <Check width={24} height={24} className="text-white" />
-                    </div>
-
-                    <p className="ml-4 text-xs">{type}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
           <div className="flex flex-wrap justify-center">
       {steps.map((step) => (
         <Card key={step.id} icon={step.icon} title={step.title} description={step.description} />
