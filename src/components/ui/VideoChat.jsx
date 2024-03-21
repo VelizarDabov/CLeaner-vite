@@ -2,7 +2,7 @@ import ChatBubbleWing from "./ChatBubbleWing";
 
 export const VideoChatMessage = () => {
   return (
-    <div className="absolute lg:top-36 top-[6.5rem] left-[6.125rem] bg-blue-200 lg:left-[8.125rem] w-full max-w-[14rem] pt-3.5 pr-2.5 pb-7 pl-5 text-gray-700 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
+    <div className="absolute lg:top-36 top-[6.5rem] left-[6.125rem] bg-blue-200 sm:left-[12rem] md:left-[12rem] md:top-[8rem] lg:left-[8.125rem] w-full max-w-[14rem] pt-3.5 pr-2.5 pb-7 pl-5 text-gray-700 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
       <p>
         {" "}
         Kликнете{" "}

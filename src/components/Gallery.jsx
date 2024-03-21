@@ -7,8 +7,8 @@ const Gallery = () => {
         <h2 className="text-3xl font-bold mb-6">Before & After Gallery</h2>
         <div className="grid grid-cols-2 gap-6">
           {imagePairs.map((pair, index) => (
-            <div key={index} className="flex">
-              <div className="relative w-full h-350">
+            <div key={index} className="grid grid-cols-1 md:grid-rows-1">
+              <div className="relative w-full h-450">
                 <img
                   src={pair.dirty}
                   alt="Before"
@@ -18,7 +18,7 @@ const Gallery = () => {
                   <span className="text-white text-lg font-bold">Before</span>
                 </div>
               </div>
-              <div className="relative w-full h-350">
+              <div className="relative w-full h-450">
                 <img
                   src={pair.clean}
                   alt="After"

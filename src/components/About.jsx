@@ -57,7 +57,7 @@ const About = () => {
     height={400}
     alt="service card"
   />
-  <div className="absolute inset-0 flex items-center justify-center md:static">
+  <div className="absolute inset-0 flex items-center justify-center md:static ">
     <div className="flex items-center justify-center h-full">
       <VideoChatMessage />
     </div>

@@ -13,14 +13,14 @@ const Service = () => {
           Влезте в света на чистотата и комфорта с нашата компания. Ние предлагаме разнообразни услуги за почистване,
           които ще направят вашия дом, офис или друго пространство безупречно чисто и приятно за живеене или работа.
         </p>
-        <div className="flex flex-wrap gap-10 mt-10 mb-10">
+        <div className="flex flex-wrap justify-center gap-10 mt-10 mb-10">
           {services.map((item) => (
             <div
               key={item.id}
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 border-2 rounded-md rounded-tr-3xl border-blue-500"
+              className="block relative  p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 border-2 rounded-md rounded-tr-3xl border-blue-500"
             >
               
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <div className="relative z-2 flex flex-col  min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="text-2xl leading-normal underline mb-5">{item.type}</h5>
                 <p className="body-2 mb-6 text-black "> {item.text}</p>
                 <div className="flex items-center justify-center mt-auto">
