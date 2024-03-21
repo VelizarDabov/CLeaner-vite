@@ -17,30 +17,21 @@ const Service = () => {
           {services.map((item) => (
             <div
               key={item.id}
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105"
-              style={{ backgroundImage: `url(${item.imageUrl})` }}
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 border-2 rounded-md rounded-tr-3xl border-blue-500"
             >
               
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="text-2xl leading-normal underline mb-5">{item.type}</h5>
                 <p className="body-2 mb-6 text-black "> {item.text}</p>
-                <div className="flex items-center mt-auto">
-                  <img
-                    src={item.imageUrl}
-                    width={48}
-                    height={48}
-                    alt={item.name}
-                  />
-               <h1 className="text-4xl font-semibold  ml-10 cursor-pointer z-20">
+                <div className="flex items-center justify-center mt-auto">
+              
+               <h1 className="text-4xl font-semibold  cursor-pointer z-20">
           <span className="text-5xl  text-blue-600 scroll-smooth font-bold">
             CL
           </span>
           eaner🧹
         </h1>
-                  {/* <p className="ml-auto font-full text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
-               */}
+              
           
                 </div>
               </div>
