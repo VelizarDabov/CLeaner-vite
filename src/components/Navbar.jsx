@@ -19,16 +19,16 @@ const Header = () => {
       </a>
       {/* center */}
 
-      <div className=" hidden items-center justify-center m-auto lg:flex">
+      <div className=" hidden items-center justify-center m-auto md:flex">
             {navigation.map((item) => (
               <a
                 key={item.id}
                 href={item.url}
-                className={`  text-2xl uppercase text-n-1 transition-colors hover:text-blue-400 ${
+                className={`  text-2xl uppercase text-gray-700 transition-colors hover:text-blue-400 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 text-sm lg:text-lg lg:font-semibold ${
+                } md:px-3 lg:px-6 py-6 md:py-8 text-sm md:text-lg md:font-semibold ${
                   item.url === pathname.hash
-                    ? "z-2 lg:text-blue-500"
+                    ? "z-2 md:text-blue-500"
                     : "lg:text-black/80"
                 } `}
               >
