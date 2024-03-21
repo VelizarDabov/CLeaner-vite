@@ -80,19 +80,20 @@ const About = () => {
                 Ние почистваме всичко и навсякъде – от най-малката тоалетна, до огромни индустриални обекти. Няма да откриете фиксирани цени за отделните услуги в сайта, нито можем да Ви кажем „ориентировъчна“ цена по телефона. 
                 </p>
               </div>
-
               <div className="relative h-[20rem] bg-gray-500 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src={serviceCard}
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
-                />
-
-                <VideoChatMessage />
-                
-              </div>
+  <img
+    src={serviceCard}
+    className="w-full h-full object-cover"
+    width={520}
+    height={400}
+    alt="service card"
+  />
+  <div className="absolute inset-0 flex items-center justify-center md:static">
+    <div className="flex items-center justify-center h-full">
+      <VideoChatMessage />
+    </div>
+  </div>
+</div>
             </div>
           </div>
         </div>
