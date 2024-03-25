@@ -3,7 +3,7 @@ import { socials } from "../constants/index";
 
 const Footer = () => {
   return (
-    <section  className="!px-0 !py-10">
+    <footer className="!px-0 !py-10">
       <div className=" flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className=" text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
@@ -22,7 +22,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </footer>
   );
 };
 
