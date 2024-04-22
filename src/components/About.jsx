@@ -21,7 +21,7 @@ const About = () => {
       ))}
     </div>
           <div className="relative z-20 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-gray-300 rounded-3xl overflow-hidden hidden lg:flex">
+            <div className="relative min-h-[39rem] border border-gray-300 rounded-3xl overflow-hidden  lg:flex">
               <div className="inset-0 absolute">
                 <img
                   src={cleen2}

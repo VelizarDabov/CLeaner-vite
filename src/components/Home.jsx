@@ -13,9 +13,6 @@ gsap.to('#title', {opacity:1, y:10,x:10, duration:1})
 },[])
   const handleClick= (event) => {
     event.preventDefault();
-    console.log('clicked');
-    
-    // Smooth scroll to the target section
     const section = document.querySelector("#about");
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
